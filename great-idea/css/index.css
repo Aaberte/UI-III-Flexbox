@@ -68,10 +68,6 @@ body {
 	width:80%
 }
 
-header {
-	display:flex;
-}
-
 nav {
 	display: flex;
 	border: 1px solid black;
@@ -101,5 +97,19 @@ nav {
 
 }
 
+header {
+	display:flex;
+	border:1px solid black;
+	width:80%;
+	}
 
+.header-left {
+	border: 1px solid black;
+	width:50%;
+	text-align:center;
+}
 
+.header-right {
+	border: 1px solid black;
+	width:50%;
+}
