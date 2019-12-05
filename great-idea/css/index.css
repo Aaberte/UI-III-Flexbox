@@ -66,10 +66,12 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
 	width:80%
+	margin: 0;
 }
 
 nav {
 	display: flex;
+	padding-bottom:25px;
 }
 
 .links {
@@ -95,16 +97,18 @@ nav {
 
 header {
 	display:flex;
-	width:80%;
+	width:100%;
+	padding-top:25px;
+	padding-bottom:25px;
 	}
 
 .header-left {
-	width:85%;
+	width:80%;
 	text-align:center;
 }
 
 .header-right {
-	width:15%;
+	width:30%;
 }
 .first-paragraph {
 	display:flex;
