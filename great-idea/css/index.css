@@ -70,19 +70,16 @@ body {
 
 nav {
 	display: flex;
-	border: 1px solid black;
-	}
+}
 
 .links {
 	display:flex;
-	border: 1px solid black;
 	width:70%;
 	justify-content:space-evenly;
 	align-items:center;
 }
 
 .links a {
-	border: 1px solid black;
 	text-decoration:none;
 	width:25%;
 	text-align:center;
@@ -91,7 +88,6 @@ nav {
 }
 
 .logo {
-	border: 1px solid black;
 	width:25%;
 	text-align:center;
 
@@ -99,17 +95,21 @@ nav {
 
 header {
 	display:flex;
-	border:1px solid black;
 	width:80%;
 	}
 
 .header-left {
-	border: 1px solid black;
-	width:50%;
+	width:85%;
 	text-align:center;
 }
 
 .header-right {
-	border: 1px solid black;
-	width:50%;
+	width:15%;
 }
+.first-paragraph {
+	display:flex;
+}
+.third-paragraph {
+	display:flex;
+}
+
