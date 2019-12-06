@@ -71,7 +71,6 @@ body {
 }
 
 nav {
-	border: 1px solid black;
 	display: flex;
 	padding-bottom:25px;
 }
@@ -175,6 +174,19 @@ header {
 
 .service-firstrow {
 	display: flex;
+	justify-content: space-between;	
 }
 
+.grey-boxleft {	
+	border-left: 1px solid grey;
+	border-bottom: 1px solid grey;
+	background-color: lightgrey;
+	width: 48%;	
+}
 
+.grey-boxright {
+	border-left: 1px solid grey;
+	border-bottom: 1px solid grey;
+	background-color: lightgrey;
+	width: 48%;	
+}
