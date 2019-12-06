@@ -65,19 +65,19 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-	border: 1px solid grey;
+	
 	width:100%;
 	margin:0;
 }
 
 nav {
-	border: 1px solid grey;
+	
 	display: flex;
 	padding-bottom:25px;
 }
 
 .links {
-	border: 1px solid grey;
+	
 	display:flex;
 	width:70%;
 	justify-content:space-evenly;
@@ -85,14 +85,14 @@ nav {
 }
 
 .links a {
-	border: 1px solid grey;
+	
 	text-decoration:none;
 	width:25%;
 	text-align:center;		
 }
 
 .logo {
-	border: 1px solid grey;
+
 	width:25%;
 	text-align:center;
 }
@@ -103,7 +103,7 @@ h1 {
 }
 
 header {
-	border: 1px solid grey;
+	
 	display:flex;
 	width:100%;
 	padding-top:25px;
@@ -112,7 +112,7 @@ header {
 }
 
 .header-left {
-	border: 1px solid grey;
+	
 	width:50%;
 	justify-content: center;
 	padding-left: 60px;
@@ -120,28 +120,26 @@ header {
 
 
 .header-right {
-	border: 1px solid grey;
+	
 	width:50%;
 	justify-content: center;
 	height: 40vh;
 }
 
 .first-paragraph {
-	border: 1px solid grey;
+	border-top: 1px solid grey;
+	padding-top: 5%;
 	display:flex;
 	margin: 3% 0%;
 }
 
-.features {
-	border: 1px solid grey;
-}
-
-h3 {
-	border: 1px solid grey;
-}
-
 .line-spacing {
 	line-height: 1.3em;
+	padding: 0% 2%;
+}
+
+.second-paragraph {
+	margin: 3% 0%;
 }
 
 .middle-img {
@@ -150,8 +148,9 @@ h3 {
 }
 
 .third-paragraph {
-	border: 1px solid grey;
+	border-bottom: 1px solid grey;
 	display:flex;
+	padding-bottom: 5%;
 }
 
 .header-right-items {
