@@ -71,7 +71,7 @@ body {
 }
 
 nav {
-	
+	border: 1px solid black;
 	display: flex;
 	padding-bottom:25px;
 }
@@ -160,3 +160,21 @@ header {
 	align-items: center;
 	padding-top: 80px;
 }
+
+/* Services page specific */
+
+.services-img {
+	width:100%;
+	object-fit: fill;	
+}
+
+.header-services-page {
+	display: flex;
+	flex-direction: column;
+}
+
+.service-firstrow {
+	display: flex;
+}
+
+
