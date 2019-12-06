@@ -65,16 +65,19 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-	width:80%
-	margin: 0;
+	border: 1px solid grey;
+	width:80%;
+	margin:0;
 }
 
 nav {
+	border: 1px solid grey;
 	display: flex;
 	padding-bottom:25px;
 }
 
 .links {
+	border: 1px solid grey;
 	display:flex;
 	width:70%;
 	justify-content:space-evenly;
@@ -82,20 +85,22 @@ nav {
 }
 
 .links a {
+	border: 1px solid grey;
 	text-decoration:none;
 	width:25%;
 	text-align:center;
-	}
-	
+		
 }
 
 .logo {
+	border: 1px solid grey;
 	width:25%;
 	text-align:center;
 
 }
 
 header {
+	border: 1px solid grey;
 	display:flex;
 	width:100%;
 	padding-top:25px;
@@ -103,17 +108,21 @@ header {
 	}
 
 .header-left {
+	border: 1px solid grey;
 	width:80%;
 	text-align:center;
 }
 
 .header-right {
+	border: 1px solid grey;
 	width:30%;
 }
 .first-paragraph {
+	border: 1px solid grey;
 	display:flex;
 }
 .third-paragraph {
+	border: 1px solid grey;
 	display:flex;
 }
 
